@@ -125,6 +125,6 @@ for i, v in enumerate(trans_degerler):
     ax.text(i + w/2, v + 0.02, f"{v:.2f}", ha="center", fontsize=9)
 
 plt.tight_layout()
-plt.savefig("images/karsilastirma.png", dpi=120, bbox_inches="tight")
+plt.savefig("LLM/images/karsilastirma.png", dpi=120, bbox_inches="tight")
 plt.close()
 print("Grafik kaydedildi: images/karsilastirma.png")
